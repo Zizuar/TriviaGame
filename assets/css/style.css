@@ -1,9 +1,23 @@
 body, html {
     height: 100%;
-    margin: 0;
+    margin: 20px;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
-    background-image: url(assets/images/background.gif);
+    background-image: url(../images/stars.gif);
   }
-  
-   
+.last-seconds{
+    color: red;
+  }
+.option{
+    margin: 15px;
+    display: inline-block;
+    text-align: center;
+  }
+.start {
+  text-align: center;
+  display: inline-block;
+  }
+.game {
+  display: inline-block;
+  align-content: center;
+}
