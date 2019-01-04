@@ -51,7 +51,7 @@ $(document).on('click' , '.option', trivia.guessChecker);
     },
 // As you iterate through the quiz.. timer isn't functioning? Why?   Now Start Button Stopped Working...
     nextQuestion : function(){    
-      trivia.timer = 10;
+      trivia.timer = 15;
       $('#time').removeClass('last-seconds');
       $('#time').text(trivia.timer);       
       if(!trivia.timerOn){
